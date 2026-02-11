@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyTask.Host", "Host\DailyTask.Host\DailyTask.Host.csproj", "{8D17C228-38AD-48A6-BF86-086B26BE6E99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EveryDayTask.Services", "Services\EveryDayTask.Services\EveryDayTask.Services.csproj", "{BB2ADC2C-8E82-4468-B410-B963C832D8AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,12 +23,17 @@ Global
 		{8D17C228-38AD-48A6-BF86-086B26BE6E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D17C228-38AD-48A6-BF86-086B26BE6E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D17C228-38AD-48A6-BF86-086B26BE6E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB2ADC2C-8E82-4468-B410-B963C832D8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2ADC2C-8E82-4468-B410-B963C832D8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2ADC2C-8E82-4468-B410-B963C832D8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2ADC2C-8E82-4468-B410-B963C832D8AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8D17C228-38AD-48A6-BF86-086B26BE6E99} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{BB2ADC2C-8E82-4468-B410-B963C832D8AB} = {F2AF314F-6BC8-43D7-BCBA-67E85975AE97}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {754E1E1D-6073-4CC4-820C-1E3CF6405034}
